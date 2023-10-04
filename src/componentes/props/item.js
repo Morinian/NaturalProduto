@@ -3,6 +3,7 @@ import Style from './item.module.css'
 function Item({produto, oleo, preco,}){
     return(
         <div className={Style.caixona}>
+
             <div className={Style.imagem}>
                 <img src={produto} alt='produto' />
             </div>

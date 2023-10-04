@@ -14,22 +14,59 @@ function Produtos6(){
                 <Item
                 produto={f1}
                 oleo='aromatizador cuia'
-                preco='R$ 49,00'/>
+                preco='R$29,00'/>
                 <Item
                 produto={f2}
                 oleo=' aromatizador tulipa'
-                preco='R$ 49,00'/>
+                preco='R$ 19,00'/>
                 <Item
                produto={f3}
                 oleo=' arvore da vida'
-                preco='R$ 49,00'/>
+                preco='R$ 69,00'/>
                 <Item
                 produto={f4}
                 oleo='colar mandala'
-                preco='R$ 49,00'/>
+                preco='R$ 79,00'/>
    
             </div>
-
+            <div className={Style.caixa}>
+                <Item
+                produto={f1}
+                oleo='aromatizador cuia'
+                preco='R$29,00'/>
+                <Item
+                produto={f2}
+                oleo=' aromatizador tulipa'
+                preco='R$ 19,00'/>
+                <Item
+               produto={f3}
+                oleo=' arvore da vida'
+                preco='R$ 69,00'/>
+                <Item
+                produto={f4}
+                oleo='colar mandala'
+                preco='R$ 79,00'/>
+   
+            </div>
+            <div className={Style.caixa}>
+                <Item
+                produto={f1}
+                oleo='aromatizador cuia'
+                preco='R$29,00'/>
+                <Item
+                produto={f2}
+                oleo=' aromatizador tulipa'
+                preco='R$ 19,00'/>
+                <Item
+               produto={f3}
+                oleo=' arvore da vida'
+                preco='R$ 69,00'/>
+                <Item
+                produto={f4}
+                oleo='colar mandala'
+                preco='R$ 79,00'/>
+   
+            </div>
         </div>
     )
 }

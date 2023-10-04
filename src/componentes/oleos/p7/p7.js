@@ -14,19 +14,57 @@ function Produtos7(){
                 <Item
                 produto={f1}
                 oleo=' necessaire'
-                preco='R$ 49,00'/>
+                preco='R$ 99,00'/>
                 <Item
                 produto={f2}
                 oleo=' necessarie cor cru'
-                preco='R$ 49,00'/>
+                preco='R$ 109,00'/>
                 <Item
                produto={f3}
                 oleo=' sacola-roxa'
-                preco='R$ 49,00'/>
+                preco='R$ 39,00'/>
                 <Item
                 produto={f4}
                 oleo=' phytoterapica'
-                preco='R$ 49,00'/>
+                preco='R$ 29,00'/>
+   
+            </div>
+            <div className={Style.caixa}>
+                <Item
+                produto={f1}
+                oleo=' necessaire'
+                preco='R$ 99,00'/>
+                <Item
+                produto={f2}
+                oleo=' necessarie cor cru'
+                preco='R$ 109,00'/>
+                <Item
+               produto={f3}
+                oleo=' sacola-roxa'
+                preco='R$ 39,00'/>
+                <Item
+                produto={f4}
+                oleo=' phytoterapica'
+                preco='R$ 29,00'/>
+   
+            </div>
+            <div className={Style.caixa}>
+                <Item
+                produto={f1}
+                oleo=' necessaire'
+                preco='R$ 99,00'/>
+                <Item
+                produto={f2}
+                oleo=' necessarie cor cru'
+                preco='R$ 109,00'/>
+                <Item
+               produto={f3}
+                oleo=' sacola-roxa'
+                preco='R$ 39,00'/>
+                <Item
+                produto={f4}
+                oleo=' phytoterapica'
+                preco='R$ 29,00'/>
    
             </div>
 
