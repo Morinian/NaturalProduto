@@ -11,7 +11,7 @@ function Header(){
             <p>Com mais R$ 200,00 o frete é por nossa conta!</p>
             </div>
             <div className={Styles.headerlogo}>
-                <img className={Styles.logo} src={logo}></img>
+                <Link to='/Meio'><img className={Styles.logo} src={logo}></img></Link>
 
                 <div className={Styles.forms}>
                     <input className={Styles.pedido} type='text' placeholder= 'O que você procura?'></input>
@@ -26,13 +26,13 @@ function Header(){
 
                 <div className={Styles.link}>
                     <ul>
-                        <li><Link to='/Produtos1'>ÓLEOS ESSENCIAIS</Link></li>
-                        <li><Link to='/Produtos2'>ÓLEOS VEGETAIS </Link></li>
-                        <li><Link to='/Produtos3'>SINERGIAS </Link></li>
-                        <li><Link to='/Produtos4'>COSMÉTICOS NATURAIS </Link></li>
-                        <li><Link to='/Produtos5'>HIGIENE PESSOAL </Link></li>
-                        <li><Link to='/Produtos6'>AROMATIZADORES</Link> </li>
-                        <li><Link to='/Produtos7'>ACESSÓRIOS </Link></li>
+                        <li><Link to='/Produtos1' className={Styles.link2}>ÓLEOS ESSENCIAIS</Link></li>
+                        <li><Link to='/Produtos2'className={Styles.link2}>ÓLEOS VEGETAIS </Link></li>
+                        <li><Link to='/Produtos3'className={Styles.link2}>SINERGIAS </Link></li>
+                        <li><Link to='/Produtos4'className={Styles.link2}>COSMÉTICOS NATURAIS </Link></li>
+                        <li><Link to='/Produtos5'className={Styles.link2}>HIGIENE PESSOAL </Link></li>
+                        <li><Link to='/Produtos6'className={Styles.link2}>AROMATIZADORES</Link> </li>
+                        <li><Link to='/Produtos7'className={Styles.link2}>ACESSÓRIOS </Link></li>
                     </ul>
 
                 </div>

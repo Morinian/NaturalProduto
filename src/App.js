@@ -11,13 +11,16 @@ import Produtos5 from './componentes/oleos/p5/p5';
 import Produtos6 from './componentes/oleos/p6/p6';
 import Produtos7 from './componentes/oleos/p7/p7';
 
+import Meio from './componentes/corpo/meio';
+
 function App() {
   return (
     <main>
       <Router>
         <Header/>
-
           <Routes>
+            <Route path='/' element={<Meio/>} />
+            <Route path='/Meio' element={<Meio/>} />
             <Route path='/Produtos1' element={<Produtos1/>} />
             <Route path='/Produtos2' element={<Produtos2/>} />
             <Route path='/Produtos3' element={<Produtos3/>} />

@@ -4,6 +4,20 @@ import logo from '../imgs/logo.png'
 function Footer() {
   return (
     <footer>
+      <div className={Style.inscreva}>
+
+      <div className= {Style.inscreve}>
+        <h3>Inscreva-se</h3>
+        <p>E RECEBA NOVIDADES E PROMOÇÕES</p>
+      </div>
+
+      <div className={Style.email}>
+        <input className={Style.campo} type='text' placeholder= '   Seu e-mail'></input>
+        <button className={Style.butão}> ASSINAR NEWSLETTER</button>
+      </div>
+
+      </div>
+
       <div className={Style.pontos}>
 
         <div className={Style.pontos2}>

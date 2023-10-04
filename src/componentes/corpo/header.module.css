@@ -78,7 +78,10 @@ svg{
     border: #cfcfcf  solid ;
     border-width: 1px  0px 1px 0px;
 }
-
+.link2{
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+}
 .link ul{
     display: flex;
     justify-content: space-around;
@@ -93,7 +96,7 @@ svg{
     color: rgb(155, 155, 155);
 }
 
-.link ul li:hover{
+.link2:hover{
     color: rgb(148, 250, 46);
     transition: 0.5s;
 }
